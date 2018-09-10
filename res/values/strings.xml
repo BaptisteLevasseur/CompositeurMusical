@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Compositeur Musical</string>
+    <string name="enregistrer_son">Enregistrer son</string>
+    <string name="editeur_musique">Editeur Musical</string>
+    <string name="compositeur_musique">Compositeur Musical</string>
+    <string name="title_activity_editeur">Enregistrer Son</string>
+    <string name="nom_son">Nom du fichier</string>
+    <string name="title_activity_gestionnaire_son">Gestionnaire Son</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="choisir_duree">Choisissez la durée de votre enregistrement</string>
+    <string name="gestionnaire_musique">Gestionnaire Musique</string>
+    <string name="editer_son">Editer Son</string>
+    <string name="title_activity_compositeur">CompositeurActivity</string>
+    <string name="title_activity_extraction">ExtractionActivity</string>
+    <string name="title_activity_editeur_son">EditeurSonActivity</string>
+     <string name="selection_extraction">Selectionner extraction</string>
+
+</resources>

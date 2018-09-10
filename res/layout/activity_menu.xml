@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/gestionnaire_musique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gestionnaire_musique" />
+
+    <Button
+        android:id="@+id/compositeur_musique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/compositeur_musique"
+        android:layout_below="@id/gestionnaire_musique" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/choisirSon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choisir_duree" />
+
+    <Spinner
+        android:id="@+id/choixDureeSon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choisirSon" />
+
+
+    <Button
+        android:id="@+id/enregistrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/enregistrer_son" />
+
+    <Button
+        android:id="@+id/edition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/enregistrement"
+        android:text="@string/editer_son" />
+    
+     <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/enregistrement" />
+    <ListView
+        android:id="@+id/listSon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/progressBar"
+        android:layout_below="@id/choixDureeSon2" />
+
+</RelativeLayout>
